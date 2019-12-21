@@ -1,0 +1,569 @@
+/*used to beautify the webpage*/
+.position{
+    	display: table;
+   	content: " ";
+	margin-right: auto;
+    	margin-left: auto;
+}
+
+.thumbnail{
+	display: inline-block;
+   	max-width: 100%;
+    	height: auto;
+    	padding: 4px;
+   	line-height: 1.42857143;
+   	background-color: #fff;
+   	border: 1px solid #ddd;
+    	border-radius: 4px;
+	float:left;
+   	margin-right: 15px;
+    	margin-left: 15px;
+}
+h1{
+	text-align:center;
+}
+.hidden {
+   display:none;
+}
+
+.unhidden {
+  display:block;
+}
+
+
+#main {
+  position:relative;
+  margin-right:auto;
+  margin-left:auto;
+  width:900px;
+  height:700px;
+  border:thick solid red;
+}
+
+#boundaryBigImage { 
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    z-index:1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#x {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:30px;
+  height:30px;
+  z-index:2;
+}
+
+#lightbox {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.4);
+}
+
+#positionBigImage{
+ position:relative;
+ top:15px;
+ left:0px;
+ width: 0%;
+ margin-left: auto;
+ margin-right: auto;
+}
+#posotionForm {
+ position:relative;
+ top:15px;
+ left:0px;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#title {
+	text-align:center;
+	font-size:15px;
+}
+.myForm {
+	margin-top: 50px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	width: 40em;
+	padding: 1em;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:auto;
+}
+#tags{
+	padding-top: 10px;
+}
+#description{
+	padding-top: 10px;
+}
+textarea{
+	resize: none;
+	width: 200px;
+	height:100px;
+}
+#submit {
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 32%;
+	margin-top: 1.8em;
+}
+#reset{
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 1.8em;
+}
+#view{
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 41%;
+	margin-top: 1.8em;
+}
+.myForm button:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+/*added*/
+.container1{
+	width: 100%;
+}
+
+@media (min-width: 1200px){
+.container1{
+    width: 100%;
+}
+}
+#headerBg{
+	 background-image: url("background/md02.jpg");
+	 background-repeat: no-repeat;
+     background-position: center center;
+	 background-size: cover;
+     background-color: #ccc;
+	 height: 600px;
+    text-align: center;
+    vertical-align: middle;
+    /*margin-top: -20px;*/
+    box-shadow: inset 0 0 40em 1em black; 
+}
+.checkBox{
+	    position: relative;
+	    top: 30px;
+		left: 30px;
+}
+#topNav{
+	position: fixed;
+    width: 100%;
+	z-index: 2;
+} 
+@media screen and (max-width: 600px) {
+	#topNav {
+	position: relative;
+		width: 100%;
+		z-index: 2;
+	}
+}
+.topHead{
+	position: relative;
+	top: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 300%;
+    font-family: "Arial Black", Gadget, sans-serif;
+
+}
+#body1{
+	width: 80%;
+	background-color:WhiteSmoke;
+	border-style: double;
+	border-color: DarkGray;
+}
+#dSort, 
+#fSort, 
+#lSort,
+#deleteSelectedimage,
+#downloadAll,
+#approve,
+#editMultiple{
+	position: relative;
+	top: 5%;
+	left: 20%;
+	width: 70%;
+    height: 3em;
+}
+body{
+	width: 100%;
+	background-color: gray;
+}
+#bigImage{
+	position: relative;
+}
+#left{
+	position: relative;
+	width: 20%;
+	z-index: 2;
+}
+#right{
+	position: relative;
+	width: 20%;
+	z-index: 2;
+}
+#downloadbutton{
+	position: relative;
+	width: 15%;
+	z-index: 2;
+}
+#imageButton{
+	position: relative;
+	width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+#imageButton{
+  width: 100%;
+  height: auto;
+}
+#imageButton #left{
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#imageButton #right{
+  position: absolute;
+    top: 90%;
+    left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+#imageButton #downloadbutton{
+	position: absolute;
+    top: 6%;
+    left: 91%;;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+}
+/*used to beautify the webpage*/
+
+.position {
+	display: table;
+	content: " ";
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.thumbnail {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	padding: 4px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.unhidden {
+	display: block;
+}
+
+#main {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	height: 700px;
+	border: thick solid red;
+}
+
+#boundaryBigImage {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	z-index: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#x {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 30px;
+	height: 30px;
+	z-index: 2;
+}
+
+#lightbox {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#positionBigImage {
+	position: relative;
+	top: 15px;
+	left: 0px;
+	width: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#posotionForm {
+	position: relative;
+	top: 15px;
+	left: 0px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	text-align: center;
+	font-size: 15px;
+}
+
+.myForm {
+	margin-top: 50px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	width: 40em;
+	padding: 1em;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+#tags {
+	padding-top: 10px;
+}
+
+#description {
+	padding-top: 10px;
+}
+
+textarea {
+	resize: none;
+	width: 200px;
+	height: 100px;
+}
+
+#submit {
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 32%;
+	margin-top: 1.8em;
+}
+
+#reset {
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 1.8em;
+}
+
+#view {
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-left: 41%;
+	margin-top: 1.8em;
+}
+
+.myForm button:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+
+/*added*/
+
+.container1 {
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.container1 {
+		width: 100%;
+	}
+}
+
+#headerBg {
+	background-image: url("background/md02.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #ccc;
+	height: 600px;
+	text-align: center;
+	vertical-align: middle;
+	/*margin-top: -20px;*/
+	box-shadow: inset 0 0 40em 1em black;
+}
+
+.checkBox {
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+#topNav {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+	#topNav {
+		position: relative;
+		width: 100%;
+		z-index: 2;
+	}
+}
+
+.topHead {
+	position: relative;
+	top: 50%;
+}
+
+#body1 {
+	width: 80%;
+	background-color: WhiteSmoke;
+	border-style: double;
+	border-color: DarkGray;
+}
+
+#dSort,
+#fSort,
+#lSort,
+#deleteSelectedimage,
+#downloadAll,
+#approve,
+#editMultiple {
+	position: relative;
+	top: 5%;
+	left: 20%;
+	width: 70%;
+	height: 3em;
+}
+
+body {
+	width: 100%;
+	background-color: gray;
+}
+
+#bigImage {
+	position: relative;
+}
+
+#left {
+	position: relative;
+	width: 20%;
+	z-index: 2;
+}
+
+#right {
+	position: relative;
+	width: 20%;
+	z-index: 2;
+}
+
+#downloadbutton {
+	position: relative;
+	width: 15%;
+	z-index: 2;
+}
+
+#imageButton {
+	position: relative;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#imageButton {
+	width: 100%;
+	height: auto;
+}
+
+#imageButton #left {
+	position: absolute;
+	top: 90%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+#imageButton #right {
+	position: absolute;
+	top: 90%;
+	left: 85%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+#imageButton #downloadbutton {
+	position: absolute;
+	top: 6%;
+	left: 91%;
+	;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+h1{
+	color: white;
+	font-family: Sans-serif;
+	 
+}
+
