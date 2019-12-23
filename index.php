@@ -134,7 +134,6 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         //error of no copyright
         if (empty($_POST["copyright"])) {
             $copyrightErr = "You must agree to the copyright notice";
-                    echo "<h2>PHP is Fun!</h2>";
         } else {
             $copyright = test_input($_POST["copyright"]);
         }//if
@@ -161,7 +160,7 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
             'approved' => "false"
         );
         
-        
+        echo "<h2>PHP is Fun!</h2>";
         //increment UID if upload is successful
         $UID = str_pad(file_get_contents('identifier.txt') + 1, 4, '0', STR_PAD_LEFT);
         file_put_contents('identifier.txt', $UID);
