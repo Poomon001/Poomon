@@ -193,7 +193,9 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         $fnameErr = $lnameErr = $uploadErr = $descErr = $tagErr = $copyrightErr = "";
         $fname    = $lname = $upload = $desc = $tag = $copyright = $privateAccess = $access = "";
 
-    }//if
+    }else{
+                echo "<h2>PHP is not Fun!</h2>";
+    }
     
     include "form.inc";
     
