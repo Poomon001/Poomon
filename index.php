@@ -145,8 +145,9 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         }//if
     }//if
     
+
     if ($fname != "" && $lname != "" && $uploaded == true && $desc != "" && $tag != "" && $copyright != "") {
-        
+        //store each value in array $output
         $output = array(
             'firstname' => $fname,
             'lastname' => $lname,
@@ -191,6 +192,8 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         //reset form after successful upload
         $fnameErr = $lnameErr = $uploadErr = $descErr = $tagErr = $copyrightErr = "";
         $fname    = $lname = $upload = $desc = $tag = $copyright = $privateAccess = $access = "";
+
+        echo "<h2>PHP is Fun!</h2>";
     }//if
     
     include "form.inc";
