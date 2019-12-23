@@ -134,6 +134,7 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         //error of no copyright
         if (empty($_POST["copyright"])) {
             $copyrightErr = "You must agree to the copyright notice";
+                    echo "<h2>PHP is Fun!</h2>";
         } else {
             $copyright = test_input($_POST["copyright"]);
         }//if
@@ -193,7 +194,6 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         $fnameErr = $lnameErr = $uploadErr = $descErr = $tagErr = $copyrightErr = "";
         $fname    = $lname = $upload = $desc = $tag = $copyright = $privateAccess = $access = "";
 
-        echo "<h2>PHP is Fun!</h2>";
     }//if
     
     include "form.inc";
