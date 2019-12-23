@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-	<title>Grad Gallery</title>
+	<title>Yearbook Grad Gallery</title>
 	<link rel="stylesheet" type="text/css" href="imagegallery.css">
 	<script src="imagegallery.js"></script>
 	
