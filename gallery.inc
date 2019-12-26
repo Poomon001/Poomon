@@ -411,7 +411,7 @@ if ($isEditor) {
                         $currentFirstName = strtolower($phparray[$l]['firstname']);
                         $currentLastName  = strtolower($phparray[$l]['lastname']);
                         $currentDesc      = strtolower($phparray[$l]['description']);
-                        
+        
                         foreach ($phparray as $line) {
                             
                             //show private images only
