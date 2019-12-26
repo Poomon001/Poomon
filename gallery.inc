@@ -411,9 +411,8 @@ if ($isEditor) {
                         $currentFirstName = strtolower($phparray[$l]['firstname']);
                         $currentLastName  = strtolower($phparray[$l]['lastname']);
                         $currentDesc      = strtolower($phparray[$l]['description']);
-        
+                        $searchTerm       = strtolower($_POST['search']); //user input
                         foreach ($phparray as $line) {
-                            
                             //show private images only
                             if (strpos(trim($currentTags), trim($searchTerm)) !== false 
 								|| strpos(trim($currentFirstName), trim($searchTerm)) !== false 
@@ -422,10 +421,10 @@ if ($isEditor) {
 								&& $phparray[$l]["access"] == "private" 
 								&& $phparray[$l]["approved"] == "true") {
                                 echo "<div class='col-sm-2 col-xs-4'>";
-                                echo "<input  type='checkbox' class='checkBox' name='checked[]' value='$fileName'>";
+                                echo "<input id = 'checkbox' type='checkbox' class='checkBox' name='checked[]' value='$fileName'>";
                                 echo "<div class='thumbnail'>";
-                                echo "<a href= 'javascript:displayLightBox(" . "\"" . $fileLoc . "\", $count)' id='i$count'>";
-                                echo "<img src=" . $thumbLoc . "alt='thumb' >";
+                                echo "<a href= 'javascript:displayLightBox(" . "\"" . $fileLoc . "\", $count)' id = 'i$count'>";
+                                echo "<img src=" . $thumbLoc . " alt='thumb'>";
                                 echo "</a>";
                                 echo "</div>";
                                 echo "</div>";
@@ -454,7 +453,6 @@ if ($isEditor) {
                         $currentLastName  = strtolower($phparray[$l]['lastname']);
                         $currentDesc      = strtolower($phparray[$l]['description']);
                         $searchTerm       = strtolower($_POST['search']); //user input
-                        
                         foreach ($phparray as $line) {
                             if (strpos(trim($currentTags), trim($searchTerm)) !== false || strpos(trim($currentFirstName), trim($searchTerm)) !== false || strpos(trim($currentLastName), trim($searchTerm)) !== false || strpos(trim($currentDesc), trim($searchTerm)) !== false && $phparray[$l]["access"] == "public" && $phparray[$l]["approved"] == "true") {
                                 echo "<div class='col-sm-2 col-xs-4'>";

@@ -1,6 +1,6 @@
 [
     {
-        "firstname": "Kevins",
+        "firstname": "Kevins looom",
         "lastname": "Song",
         "access": "public",
         "tags": "Kevin",
@@ -11,7 +11,7 @@
         "approved": "true"
     },
     {
-        "firstname": "Yuheng",
+        "firstname": "Yuheng loso",
         "lastname": "Zhang",
         "access": "public",
         "tags": "Yuheng, physcis, English, math",
@@ -34,7 +34,7 @@
     },
     {
         "firstname": "Sihan",
-        "lastname": "Li",
+        "lastname": "Lifdsf",
         "access": "public",
         "tags": "Sihan, calculus, physics, Ap IT",
         "description": "I love risk",
@@ -243,7 +243,7 @@
     },
     {
         "firstname": "Federics",
-        "lastname": "Moro",
+        "lastname": "Moroyiuuj",
         "access": "public",
         "tags": "Bio, communication, drafting",
         "description": "I love cats",
@@ -328,5 +328,16 @@
         "imageFile": "0086.png",
         "UID": "0086",
         "approved": "false"
+    },
+    {
+        "firstname": "poommak",
+        "lastname": "lo lo",
+        "access": "private",
+        "tags": "poom",
+        "description": "poom",
+        "permission": "copyright",
+        "imageFile": "0089.jpg",
+        "UID": "0089",
+        "approved": "true"
     }
 ]
