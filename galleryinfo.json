@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "firstname": "Kevins l",
+=======
+        "firstname": "Kevins looom",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
         "lastname": "Song",
         "access": "public",
         "tags": "Kevin",
@@ -11,8 +15,13 @@
         "approved": "true"
     },
     {
+<<<<<<< HEAD
         "firstname": "Yp",
         "lastname": "Zhang poomo",
+=======
+        "firstname": "Yuheng loso",
+        "lastname": "Zhang",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
         "access": "public",
         "tags": "Yuheng,",
         "description": "I",
@@ -33,8 +42,13 @@
         "approved": "false"
     },
     {
+<<<<<<< HEAD
         "firstname": "Sihan fff",
         "lastname": "Lifdsf poomon",
+=======
+        "firstname": "Sihan",
+        "lastname": "Lifdsf",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
         "access": "public",
         "tags": "cal, english, chem",
         "description": "I love risk",
