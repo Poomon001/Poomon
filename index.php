@@ -160,7 +160,6 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
             'approved' => "false"
         );
         
-        echo "<h2>PHP is Fun!</h2>";
         //increment UID if upload is successful
         $UID = str_pad(file_get_contents('identifier.txt') + 1, 4, '0', STR_PAD_LEFT);
         file_put_contents('identifier.txt', $UID);
@@ -193,8 +192,6 @@ if (isset($_GET["page"]) && $_GET["page"] == "form") {
         $fnameErr = $lnameErr = $uploadErr = $descErr = $tagErr = $copyrightErr = "";
         $fname    = $lname = $upload = $desc = $tag = $copyright = $privateAccess = $access = "";
 
-    }else{
-                echo "<h2>PHP is not Fun!</h2>";
     }
     
     include "form.inc";

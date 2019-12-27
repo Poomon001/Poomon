@@ -10,6 +10,7 @@ xmlhttp.onreadystatechange = function () {
 	if (this.readyState == 4 && this.status == 200) {
 		var myArr = JSON.parse(this.responseText);
 
+		//get contents of all images stored in array - searchresults
 		for (i = 0; i < myArr.length; i++) {
 			searchresults.push(myArr[i]); //all images
 		}
@@ -72,7 +73,7 @@ function displayLightBox(imgSrc, imgid) {
 				document.getElementById("name").innerHTML = name;
 				document.getElementById("photoDesc").innerHTML = searchresults[i].description;
 
-				//show values in lightbox edit form
+				//show default values in lightbox edit input form
 				document.getElementById("fnameSingle").value = searchresults[i].firstname;
 				document.getElementById("lnameSingle").value = searchresults[i].lastname;
 				document.getElementById("descSingle").value = searchresults[i].description;

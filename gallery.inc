@@ -344,7 +344,8 @@ if ($isEditor) {
             $lastname  = $phparray[$l]['lastname'];
             $desc = $phparray[$l]['description'];
             $tags = $phparray[$l]['tags'];
-            
+
+
             //view all images
             if (isset($_POST["search"]) && $_POST['search'] != "") { //if user is searching
                 if ($phparray[$l]["approved"] == "true") {
@@ -354,7 +355,6 @@ if ($isEditor) {
                     $currentLastName = strtolower($phparray[$l]['lastname']);
                     $currentDesc = strtolower($phparray[$l]['description']);
                     $searchTerm = strtolower($_POST['search']); //user input
-                    
                     foreach ($phparray as $line) {
                         
                         if (strpos(trim($currentTags), trim($searchTerm)) !== false 
@@ -385,6 +385,7 @@ if ($isEditor) {
                 }//if
             } else if ($phparray[$l]["approved"] == "true") {
                 echo "<div class='col-sm-2 col-xs-4'>"; //added
+                                                
                 echo "<input  type='checkbox' class='checkBox' value='$fileName' name='checked[]'>";
                 echo "<input type='checkbox' name='checkedEdit[]' value='$fileName' onclick='changeVisibility(\"$count\")'>";
                 echo "<div class='thumbnail'>";
@@ -392,13 +393,13 @@ if ($isEditor) {
                 echo "<img src=" . $thumbLoc . " alt='thumb'>";
                 echo "</a>";
                 echo "</div>";
-                
+                //here is the bugs
                 echo "<div class='hidden' id='$count'>
-                            <h4>First name</h4><br><input type='text' name='fname$fileName' value=$firstname><br>
-                            <h4>Last name</h4><br><input type='text' name='lname$fileName' value=$lastname><br>
-                            <h4>Description</h4><br><input type='text' name='desc$fileName' value=$desc><br>
-                            <h4>Tags<br></h4><input type='text' name='tags$fileName' value=$tags>
-                            </div>";
+                            <h4>First name</h4><br><input type='text' name='fname$fileName' value='$firstname'><br>
+                            <h4>Last name</h4><br><input type='text' name='lname$fileName' value='$lastname'><br>
+                            <h4>Description</h4><br><input type='text' name='desc$fileName' value='$desc'><br>
+                            <h4>Tags<br></h4><input type='text' name='tags$fileName' value='$tags'>
+                        </div>";
                 echo "</div>"; //added
                 $count++;
             }//else
@@ -411,9 +412,8 @@ if ($isEditor) {
                         $currentFirstName = strtolower($phparray[$l]['firstname']);
                         $currentLastName  = strtolower($phparray[$l]['lastname']);
                         $currentDesc      = strtolower($phparray[$l]['description']);
-                        
+                        $searchTerm       = strtolower($_POST['search']); //user input
                         foreach ($phparray as $line) {
-                            
                             //show private images only
                             if (strpos(trim($currentTags), trim($searchTerm)) !== false 
 								|| strpos(trim($currentFirstName), trim($searchTerm)) !== false 
@@ -422,10 +422,10 @@ if ($isEditor) {
 								&& $phparray[$l]["access"] == "private" 
 								&& $phparray[$l]["approved"] == "true") {
                                 echo "<div class='col-sm-2 col-xs-4'>";
-                                echo "<input  type='checkbox' class='checkBox' name='checked[]' value='$fileName'>";
+                                echo "<input id = 'checkbox' type='checkbox' class='checkBox' name='checked[]' value='$fileName'>";
                                 echo "<div class='thumbnail'>";
-                                echo "<a href= 'javascript:displayLightBox(" . "\"" . $fileLoc . "\", $count)' id='i$count'>";
-                                echo "<img src=" . $thumbLoc . "alt='thumb' >";
+                                echo "<a href= 'javascript:displayLightBox(" . "\"" . $fileLoc . "\", $count)' id = 'i$count'>";
+                                echo "<img src=" . $thumbLoc . " alt='thumb'>";
                                 echo "</a>";
                                 echo "</div>";
                                 echo "</div>";
@@ -454,7 +454,6 @@ if ($isEditor) {
                         $currentLastName  = strtolower($phparray[$l]['lastname']);
                         $currentDesc      = strtolower($phparray[$l]['description']);
                         $searchTerm       = strtolower($_POST['search']); //user input
-                        
                         foreach ($phparray as $line) {
                             if (strpos(trim($currentTags), trim($searchTerm)) !== false || strpos(trim($currentFirstName), trim($searchTerm)) !== false || strpos(trim($currentLastName), trim($searchTerm)) !== false || strpos(trim($currentDesc), trim($searchTerm)) !== false && $phparray[$l]["access"] == "public" && $phparray[$l]["approved"] == "true") {
                                 echo "<div class='col-sm-2 col-xs-4'>";
