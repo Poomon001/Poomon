@@ -1,6 +1,14 @@
 [
     {
+<<<<<<< HEAD
         "firstname": "Kevins lo",
+=======
+<<<<<<< HEAD
+        "firstname": "Kevins l",
+=======
+        "firstname": "Kevins looom",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
+>>>>>>> 64bd00716cdf1d1bc8f0e7d9e7d75500df53fbe3
         "lastname": "Song",
         "access": "public",
         "tags": "Kevin",
@@ -11,8 +19,18 @@
         "approved": "true"
     },
     {
+<<<<<<< HEAD
         "firstname": "Yp",
         "lastname": "Zhang poomo",
+=======
+<<<<<<< HEAD
+        "firstname": "Yp",
+        "lastname": "Zhang poomo",
+=======
+        "firstname": "Yuheng loso",
+        "lastname": "Zhang",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
+>>>>>>> 64bd00716cdf1d1bc8f0e7d9e7d75500df53fbe3
         "access": "public",
         "tags": "Yuheng,",
         "description": "I",
@@ -33,8 +51,18 @@
         "approved": "false"
     },
     {
+<<<<<<< HEAD
         "firstname": "Sihan fff",
         "lastname": "Lifdsf poomon",
+=======
+<<<<<<< HEAD
+        "firstname": "Sihan fff",
+        "lastname": "Lifdsf poomon",
+=======
+        "firstname": "Sihan",
+        "lastname": "Lifdsf",
+>>>>>>> 88d291c7d2a68ede198535198dfb404ce93a4092
+>>>>>>> 64bd00716cdf1d1bc8f0e7d9e7d75500df53fbe3
         "access": "public",
         "tags": "cal, english, chem",
         "description": "I love risk",
