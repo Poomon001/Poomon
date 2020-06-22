@@ -1,9 +1,13 @@
 <!---form that allow the user to upload their baby photos with their name and details -->
 <form class = "myForm"  method="post" enctype="multipart/form-data">
    <p id="title"> Image Gallery </p>
+   
+   
    <div id="firstName">First Name </div>
    <input type = "text" name = "fname" value="<?php echo $fname ?>">
    <span class="error"><?php echo $fnameErr;?></span>
+   
+   
    <div id="lastName">Last Name</div>
    <input type = "text" name = "lname" value= "<?php echo $lname ?>" >
    <span class="error"><?php echo $lnameErr;?></span>
