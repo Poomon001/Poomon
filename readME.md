@@ -1,7 +1,7 @@
 # Yearbook-Baby-Gallery
-Yearbook Baby Gallery is a dynamic website that is utilized to display and manage photos. It means to give Yearbook's members easier time to collect and manage childhood photos uploaded by grad students.  
+Yearbook Baby Gallery is a dynamic website that is utilized to display and manage photos. It means to give Yearbook's members an easier time to collect and manage childhood photos uploaded by grad students.  
 
-My partner and I had decided to carry on a final programming project before we graduated from highschool. Our programming teacher, who is the school Yearbook conselor, suggested this project to us, and we decided to do so.
+My partner and I had decided to carry on a final programming project before we graduated from high school. Our programming teacher, who is the school Yearbook counselor, suggested this project to us, and we decided to do so.
 
 Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
 
@@ -30,7 +30,7 @@ Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-
 ## What is next for Yearbook Baby Gallery?
 This is the latest version of the Yearbook Baby Gallery. However, some features can be improved.
 1. Finish a login system
-2. Using database to store images and its description
+2. Using a database to store images and its description
 3. Improve lightbox UI
 
 ## Example of UploadForm, Public, Private, approval and lightbox
