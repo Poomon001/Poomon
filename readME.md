@@ -5,7 +5,7 @@ My partner and I had decided to carry on a final programming project before grad
 
 Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
 
-## How does Yearbook Baby Gallery work?
+## How does Yearbook Baby Gallery Work?
 ### Upload Form
 1. Ask users to upload their photo, descriptions and permission
 2. Check the inputs submitted by users
@@ -14,7 +14,7 @@ Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-
 5. Store all data in JSON arrays and the photos in images directories
 6. Push photos and descriptions to the approval view in the site  and wait for approval
 
-### Yearbook Baby Gallery website
+### Yearbook Baby Gallery Website
 1. Display all approved public thumbnails on the screen
 2. Click a thumbnail to open a lightbox with an original image and descriptions
 3. Click an arrow button to shift to a next/previous image, or click 'X' to close
@@ -24,7 +24,7 @@ Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-
 7. Approve waiting images, edit descriptions, and delete images(YMO)
 8. Logout to a public view (YMO)   
 
-## Key skills
+## Key Skills
 * JavaScript
 * PHP
 * HTML/CSS/Boostrap
@@ -32,7 +32,7 @@ Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-
 * JS Session
 * JS Lightbox
 
-## What is next for Yearbook Baby Gallery?
+## What Is Next for Yearbook Baby Gallery?
 This is the latest version of the Yearbook Baby Gallery. However, some features can be improved.
 1. Finish a login system
 2. Using a database to store images and its description
