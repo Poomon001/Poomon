@@ -1,7 +1,7 @@
 # Yearbook-Baby-Gallery
 Yearbook Baby Gallery is a dynamic website that is utilized to display and manage photos. It means to give Yearbook's members an easier time to collect and manage childhood photos uploaded by grad students.  
 
-My partner and I had decided to carry on a final programming project before we graduated from high school. Our programming teacher, who is the school Yearbook counselor, suggested this project to us, and we decided to do so.
+My partner and I had decided to carry on a final programming project before we graduated from high school. Our programming teacher, who is a school Yearbook counselor, suggested this project to us, and we decided to do so.
 
 Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
 
