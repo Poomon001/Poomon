@@ -6,18 +6,23 @@ My partner and I had decided to carry on a final programming project before we g
 Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
 
 ## How does Yearbook Baby Gallery work?
-1. lightbox.inc - to display the lightbox
-2. index.php - to store the form data
-3. imagegallery.js - to display the lightbox and description and arrows
-4. imagegallery.css - used to beautify the webpage
-5. identifier.txt - creates a UID for each image
-6. header.inc - the header of the html page
-7. galleryinfo.json - stores the information
-8. gallery.inc - displays the gallery pages
-9. form.inc - to display the form itself
-10. footer.inc - to close the document
-11. uploadedimages - to store original images
-12. thumbnail - to store thumbnail images
+### Upload Form
+1. Ask users to upload their photo, descriptions and a permission
+2. Check the inputs submitted by users
+3. Display an error message and return to the form, or process the form 
+4. Create a thumdnail and a UID of the photo
+5. Store all data in JSON arrays and the photos in images directories
+6. Push photos and descriotions to the approval view in the site  and wait for approval
+
+### Yearbook Baby Gallery website
+1. Display all approved public thumbnails on the screen
+2. Click a thumbnail to open lightbox with an original image and descriotions
+3. Click an arrow button to shift to a next/previous image, or click 'X' to close
+4. Click 'Download' to download photo, 'Sort' to sort images or 'Search' to search images
+5. Login to 'Login' session to access all views, Yearbook's members only (YMO)
+6. Display all public/private images separated by diffent views (YMO)
+7. Approve waiting images, edit descriptions, and delete images(YMO)
+8. Logout to a public view (YMO)   
 
 ## Key skills
 * JavaScript
