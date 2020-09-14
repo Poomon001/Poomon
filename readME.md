@@ -8,11 +8,11 @@ My partner and I had decided to carry on a final programming project before grad
 ## How does Yearbook Baby Gallery work?
 ### Upload form
 1. Ask users to upload their photo, descriptions and permission
-2. Check the inputs submitted by users
+2. Analyze the inputs submitted by users
 3. Display an error message and return to the form, or process the form 
 4. Create a thumbnail and a UID of the photo
 5. Store all data in JSON arrays and the photos in images directories
-6. Push photos and descriptions to the approval view in the site  and wait for approval
+6. Push photos and descriptions to the approval view in the site and wait for an approval
 
 ### Yearbook Baby Gallery website
 1. Display all approved public thumbnails on the screen
