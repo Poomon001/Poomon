@@ -3,7 +3,7 @@ Yearbook Baby Gallery is a dynamic website that is utilized to display and manag
 
 My partner and I had decided to carry on a final programming project before graduating from high school. Our programming teacher, who is a school Yearbook counselor, suggested this project to us, and we decided to do so.
 
-Check out this link: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
+**Check out this link**: [https://yearbook-gallery.herokuapp.com/](https://yearbook-gallery.herokuapp.com/)
 
 ## How does Yearbook Baby Gallery work?
 ### Upload form
